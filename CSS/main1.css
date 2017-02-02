@@ -1,64 +1,41 @@
-main1.css
- 
-<!DOCTYPE html>
-<html>
+* {
+	margin: 0px;
+	padding: 0px;
+}
 
-<head>
-  <title>Isolated UI Elements</title>
-  <link rel="stylesheet" href="css/main1.css">
-</head>
+body {
+	font-family: arial, helvetica, sans-serif;
+}
 
-<body>
+h1 {
+	font-size: 18px;
+	margin: 20px;
+}
 
-<div id="desktop">
-  <h1>Desktop</h1>
-  <div class="sender">
-    <img src="img/aol-mac-grey.jpg" />
-  </div>
-  <div class="receiver">
-    <img src="img/aol-mac.jpg" />
-  </div>
-  <div class="sender">
-    <img src="img/ios-thinking.jpg" />
-  </div>
-  <div class="receiver">
-    <img src="img/ios.jpg" />
-  </div>      
-  <div class="sender">
-    <img src="img/slack.png" />
-  </div>
-</div>
+img {
+	max-width: 50%;
+	height: auto;
+}
 
-<div id="phone">
-  <h1>Phone</h1>
-  <div class="sender">
-    <img src="img/fb-grey.jpg" />
-  </div>
-  <div class="receiver">
-    <img src="img/fb.jpg" />
-  </div>
-  <div class="sender">
-    <img src="img/insta-you.jpg" />
-  </div>
-  <div class="receiver">
-    <img src="img/insta-me.jpg" />
-  </div>
-  <div class="sender">
-    <img src="img/signal.jpg" />
-  </div>
-  <div class="receiver">  
-    <img src="img/signal-blue.jpg" />
-  </div> 
-  <div class="sender">
-    <img src="img/skype-grey.jpg" /><br />
-  </div>
-  <div class="receiver">  
-    <img src="img/twitter-blue.jpg" /><br />
-  </div>  
-  <div class="sender">  
-    <img src="img/twitter.jpg" /><br />
-  </div>  
-</div>
+#desktop {
+	width: 500px;
+	padding: 40px;
+	border: 1px solid red;
 
-</body>
-</html>
+}
+
+
+#phone {
+	width: 500px;
+	padding: 40px;	
+	border: 1px solid blue;
+
+}
+
+.sender {
+	text-align: left;
+}
+
+.receiver {
+	text-align: right;
+}
