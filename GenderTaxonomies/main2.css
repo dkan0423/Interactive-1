@@ -1,48 +1,48 @@
-main2.css
-* {
-	padding: 0px;
-	margin: 0px;
-}
+*{}  
+	body {
 
-body {
+	background: #868DBE;
 	font-family: 'Quicksand', monospace;
 	color: blue;
-	font-size: 40px;
-	font-weight: normal;
-}
-
-a { color: blue; }
-
-a:hover { background: rgba(255,50,0,.25); }
-
-
-#femaletaxonomy  
-
-{ position:absolute;
-	bottom:20px;
-	right: 20px; }
-	{float: right;}
-
-#femaletaxonomy2
-{ position:fixed
-	top:20px
-	left:20px; }
-	{float: left;}
-
-#femaletaxonomy3 
-{ position: fixed;
-	bottom:40px;
-	right: 40px;
-{float: right;}
-
-
-#femaletaxonomy4, #femaletaxonomy3 {
-	margin: 40px 0px;
-
-h1, h2, h3 {
 	font-size: 20px;
 	font-weight: normal;
+
 }
+
+#femaletaxonomy { 
+	position:fixed;
+	top:10px;
+	bottom:20px;
+	right:30px;
+	float: right; 
+}
+
+#femaletaxonomy2 { 
+	position:relative;
+	top:20px
+	left:20px; 
+	float: left;
+}
+
+#femaletaxonomy3 { 
+	position: fixed;
+	bottom:20px;
+	right: 20px;
+	float: right;
+}
+
+
+#femaletaxonomy4 {
+	position: relative;
+	bottom:20px;
+	left: 20px;
+	float: left;
+
+}
+
+
+
+
 
 ul {
 	list-style-type: none;
