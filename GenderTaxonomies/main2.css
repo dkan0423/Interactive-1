@@ -1,11 +1,13 @@
 *{}  
 	body {
 
-	background: #868DBE;
+background-color: #000000;
+
 	font-family: 'Quicksand', monospace;
 	color: blue;
 	font-size: 20px;
 	font-weight: normal;
+}
 
 }
 
