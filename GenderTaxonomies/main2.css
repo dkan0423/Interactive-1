@@ -4,7 +4,19 @@ body
 	background-color: #F5908A;
 	background: linear-gradient(to bottom, #D11960 15%,#F5908A 85%);
 
+}
 
+
+h1
+{
+font-size: 100px;
+line-height: 40px;
+text-align: center;
+}
+
+p
+{
+text-align: center;
 }
 
 
@@ -56,6 +68,17 @@ font-family: 'Quicksand', monospace;
 	float: left;
 	margin-left: 200px;
 }
+
+h2
+{
+	font-family: 'Quicksand', monospace;
+	color: #9EC0D8;
+	font-size: 80px;
+	font-weight: bold;
+	position: absolute;
+}
+
+
 
 #femaletaxonomy5
 {
