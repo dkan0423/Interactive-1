@@ -1,1 +1,6 @@
-body {background: red;}
+body
+ {
+	background-color: #00B3C5;
+	background: linear-gradient(to bottom, #00B3C5 25%,#006666 85%);
+
+}

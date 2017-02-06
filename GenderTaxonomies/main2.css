@@ -71,11 +71,13 @@ font-family: 'Quicksand', monospace;
 
 h2
 {
-	font-family: 'Quicksand', monospace;
-	color: #9EC0D8;
-	font-size: 80px;
-	font-weight: bold;
-	position: absolute;
+font-size: 80px;
+line-height: 40px;
+text-align: center;
+font-family: 'Verdana'
+color: #0085A1;
+font-weight: bold;
+position: absolute;
 }
 
 
