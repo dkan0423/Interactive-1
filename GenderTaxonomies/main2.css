@@ -2,51 +2,125 @@
 body
  {
 	background-color: #F5908A;
+	background: linear-gradient(to bottom, #D11960 15%,#F5908A 85%);
+
 
 }
 
 
 body {
 font-family: 'Quicksand', monospace;
-	color: blue;
-	font-size: 20px;
+	color: #EAF6F7;
+	font-size: 60px;
 	font-weight: normal;
 
 }
 
-#femaletaxonomy { 
-	position:fixed;
+#femaletaxonomy
+ { 
+ 	font-size: 40px;
+	position:relative;
 	top:10px;
 	bottom:20px;
 	right:50px;
 	float: right; 
 }
 
-#femaletaxonomy2 { 
+#femaletaxonomy2 
+{ 
+	font-size: 40px;
 	position:relative;
 	top:10px
 	bottom:20px;
 	left:50px; 
-	float: left;
+	float: left
+	margin-left: 200px;
 }
 
-#femaletaxonomy3 { 
-	position: fixed;
+#femaletaxonomy3 
+{ 
+	font-size: 40px;;
+	position: relative;
 	bottom:20px;
 	right: 20px;
 	float: right;
 }
 
 
-#femaletaxonomy4 {
+#femaletaxonomy4
+ {
+ 	font-size: 40px;
 	position: relative;
 	bottom:20px;
 	left: 20px;
 	float: left;
+	margin-left: 200px;
+}
+
+#femaletaxonomy5
+{
+	font-size: 40px;
+	position: relative;
+	bottom:20px;
+	left: 20px;
+	float: right;
 
 }
 
+#femaletaxonomy6
+{
+	font-size: 40px;
+	position: relative;
+	bottom:20px;
+	left: 20px;
+	float: left;
+}
 
+#femaletaxonomy7
+{
+	font-size: 40px;
+	position: relative;
+	bottom:20px;
+	left: 20px;
+	float: right;
+}
+
+#femaletaxonomy8
+{
+	font-size: 40px;
+	position: relative;
+	bottom:20px;
+	left: 20px;
+	float: left;
+}
+
+#femaletaxonomy9
+{
+	font-size: 40px;
+	position: relative;
+	bottom:20px;
+	left: 20px;
+	float: right;
+}
+
+#femaletaxonomy10
+{
+	font-size: 40px;
+	position: relative;
+	bottom:20px;
+	left: 20px;
+	float: left;
+}
+
+#femaletaxonomy11
+{
+	font-size: 40px;
+	text-align: left;
+	position: relative;
+	bottom:20px;
+	left: 20px;
+	float: right;
+}
 
 
 
