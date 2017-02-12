@@ -1,0 +1,173 @@
+
+
+    *{}  
+body
+ {
+  background-color: #F5908A;
+
+}
+
+ body {
+      animation: colorchange 10s; 
+         /
+      -webkit-animation: colorchange 10s; 
+    }
+
+    @keyframes colorchange
+    {
+      50%   {background: #F5908A;}
+      50%  {background: #008CC1;}
+    }
+
+    @-webkit-keyframes colorchange /* Safari and Chrome - necessary duplicate */
+    {
+     50%   {background: #F5908A;}
+      50%  {background: #008CC1;}
+    }
+
+
+h1
+{
+font-size: 100px;
+line-height: 40px;
+text-align: center;
+}
+
+p
+{
+text-align: center;
+}
+
+
+body {
+font-family: 'Quicksand', monospace;
+  color: #EAF6F7;
+  font-size: 60px;
+  font-weight: normal;
+
+}
+
+#femaletaxonomy
+ { 
+  font-size: 40px;
+  position:relative;
+  top:10px;
+  bottom:20px;
+  right:50px;
+  float: right; 
+}
+
+#femaletaxonomy2 
+{ 
+  font-size: 40px;
+  position:relative;
+  top:10px
+  bottom:20px;
+  left:50px; 
+  float: left
+  margin-left: 200px;
+}
+
+#femaletaxonomy3 
+{ 
+  font-size: 40px;;
+  position: relative;
+  bottom:20px;
+  right: 20px;
+  float: right;
+}
+
+
+#femaletaxonomy4
+ {
+  font-size: 40px;
+  position: relative;
+  bottom:20px;
+  left: 20px;
+  float: left;
+  margin-left: 200px;
+}
+
+h2
+{
+font-size: 80px;
+line-height: 40px;
+text-align: center;
+font-family: 'Verdana'
+color: #0085A1;
+font-weight: bold;
+position: absolute;
+}
+
+
+
+#femaletaxonomy5
+{
+  font-size: 40px;
+  position: relative;
+  bottom:20px;
+  left: 20px;
+  float: right;
+
+}
+
+#femaletaxonomy6
+{
+  font-size: 40px;
+  position: relative;
+  bottom:20px;
+  left: 20px;
+  float: left;
+}
+
+#femaletaxonomy7
+{
+  font-size: 40px;
+  position: relative;
+  bottom:20px;
+  left: 20px;
+  float: right;
+}
+
+#femaletaxonomy8
+{
+  font-size: 40px;
+  position: relative;
+  bottom:20px;
+  left: 20px;
+  float: left;
+}
+
+#femaletaxonomy9
+{
+  font-size: 40px;
+  position: relative;
+  bottom:20px;
+  left: 20px;
+  float: right;
+}
+
+#femaletaxonomy10
+{
+  font-size: 40px;
+  position: relative;
+  bottom:20px;
+  left: 20px;
+  float: left;
+}
+
+#femaletaxonomy11
+{
+  font-size: 40px;
+  text-align: left;
+  position: relative;
+  bottom:20px;
+  left: 20px;
+  float: right;
+}
+
+
+
+ul {
+  list-style-type: none;
+}
