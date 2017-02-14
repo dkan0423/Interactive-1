@@ -1,6 +1,4 @@
-
-
-    *{}  
+*{}  
 body
  {
   background-color: #F5908A;
@@ -150,6 +148,53 @@ margin-left: 110px;
   border: 10px solid blue;
 
 }
+
+.mancop1 {
+  margin-left: 100px
+}
+
+.mancop2{
+  margin-left:100px;
+}
+.mancop3 {
+  margin-left:100px;
+}
+.mancop4 {
+  margin-left: 100px;
+}
+.mancop5 {
+  margin-left: 100px;
+}
+.mancop6 {
+  margin-left: 100px
+}
+.mancop7 {
+  margin-left: 100px;
+}
+.mancop8 {
+  margin-left:100px;
+}
+
+.mancop9 {
+  margin-left:100px;
+}
+.mancop10 {
+  margin-left: 100px
+}
+
+#femalecop {
+  background-color: #F05B82;
+  margin-left: 650px;
+  margin-top: 850px;
+  width: 400px;
+  height: 400px;
+    position: absolute;
+    top: 10px;
+  overflow: auto;  
+  border: 10px solid pink;
+
+}
+
 
 
 
