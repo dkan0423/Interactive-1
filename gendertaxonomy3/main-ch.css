@@ -3,7 +3,9 @@
 	padding: 0px;
 }
 
+
 #title{
+	margin-top: 200px;
 	position: fixed;
 	top: 50px;
 	left: 50px;
@@ -13,7 +15,7 @@
 	width: 50%;
 	height: 100vh;
 
-	background: blue; 
+	background-color: #008CC1; 
 	float: left;
 
 	overflow: scroll;
@@ -24,7 +26,7 @@
 	width: 50%;
 	height: 100vh;
 
-	background: pink;
+	background-color: #F05B82;
 	float: right;
 
 	overflow: scroll;
@@ -37,3 +39,34 @@ img {
 	margin-right: auto;
 	margin-top: 50vh;
 }
+
+p {
+	font-family: "Helvetica Neue";
+	font-size: 40px;
+	color: white;
+	text-align: center;
+
+}
+
+h1 {
+	font-family: "Helvetica Neue";
+	font-size:150px;
+	color: white;
+	position:fixed;
+}
+
+#linktitle {
+	font-family: "Helvetica Neue";
+	font-size:20px;
+	color: white;
+	background-color: #EDDCAF;
+	text-align: right;
+
+}
+
+
+
+
+
+
+
