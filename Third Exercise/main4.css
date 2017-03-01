@@ -9,16 +9,17 @@
 }
 body {
 	background: #E3B1D2;
-	background: url(img/poem1.png);
+	background: url(img/poemboard1.png);
 	font-family: 'Oswald';
 	font-size: 40px;
 	font-weight: bold;
+	text-align: center;
 }
 
 #screenone{
 	opacity: 1;
 	color: white;
-	transform: rotate(-25deg);
+	transform: rotate(-10deg);
 
 }
 
@@ -28,12 +29,15 @@ body {
 /*  Screen Two */
 @media (min-width: 500px) and (max-width: 800px) { 
 	body {
-		background: url(img/poem2.png);
+		background: url(img/poemboard2.png);
 		background-size: cover;
+		background-repeat: none;
+		background-attachment: fixed;
+    	background-position: center center;
 		color: white;
 		font-family: 'Oswald';
 		font-size: 20px;
-		font-style:
+		text-align: center;
 
 	}
 
@@ -41,7 +45,7 @@ body {
 		opacity: 1;
 		width: 5px;
   		height: 5px;
-  		transform: scale(10) skew(20deg);
+  		transform: scale(2) skew(5deg);
 
 	}
 
@@ -51,29 +55,35 @@ body {
 
 }
 
-/* iPhone 6*/
+/* screen three*/
 @media (min-width: 375px) and (max-width: 667px) { 
 	
 	body {
 		background: white;
-		background: url(img/poem3.png);
+		background: url(img/poemboard3.png);
 		background-size: cover;
+		background-attachment: fixed;
+   		background-position: center center;
 		font-family: 'Oswald';
-		font-size: 20px;
+		font-size: 10px;
 		font-style: bold;
+		text-align:center;
 		color: white;
 	}
 
-/* iPhone 6*/
+/* screen four*/
 @media (min-width: 200px) and (max-width: 400px) { 
 	
 	body {
 		background: white;
-		background: url(img/poem4.png);
+		background: url(img/poemboard4.png);
+		background-repeat: none;
 		background-size: cover;
+		background-attachment: fixed;
 		font-family: 'Oswald';
 		font-size: 10px;
 		font-style: bold;
+		text-align: center;
 		color: white;
 	}
 
@@ -83,7 +93,5 @@ body {
 		transform: rotate(340deg);
 	}
 
-	#screenone, #screentwo {
-		opacity: 0;
-	}
+	
 }
