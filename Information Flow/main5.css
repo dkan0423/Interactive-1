@@ -1,0 +1,236 @@
+* { margin: 0px; padding: 0px; }
+
+body {
+	text-align: left;
+	font-size: 50px;
+	font-family: Tahoma;
+	background-color:#3b5998;
+	color: white;
+}
+
+/* diagram title */
+
+h1#title {
+	margin-left:500px;
+	position: relative;
+	top: 20px;
+	left: 50px;
+	transform: rotate(90deg);
+	transform-origin: top left;
+}
+
+/* main structure */
+
+#container {
+	padding: 100px 0px;
+	width: 700px;
+	margin: auto;
+}
+
+/* diagram stucture area */
+
+/* diagram1 */
+
+#diagram1 {
+	position: relative;
+	/* size the div to mask the image */
+	height: 252px;
+    width: 290px;
+}
+
+/* move the image to the top left of the parent container */
+#diagram1img {
+	position: absolute;
+    left: -90px;
+    top: -78px;
+
+}
+
+/* make p absolute and have a height and width */
+#diagram1 p {
+	position: absolute;
+	width: 400px;
+	height: 300px;
+	margin-left:-500px;
+	opacity: 0;
+	transition:500ms ease;
+}
+
+/* hover */
+
+#diagram1:hover p{
+	opacity: 1;
+}
+
+/* diagram2 */
+
+
+#diagram2 {
+	position:relative;
+	height: 700px
+	width: 500px;
+	margin-left:-175px;
+	
+}
+
+#diagram2img {
+	position: absolute;
+	left:-90px
+	top:-200px;
+}
+
+#diagram2 p {
+	position: absolute;
+	width: 400px
+	height:300px;
+	margin-left:-500px;
+	opacity:0;
+	transition: 500ms ease;
+}
+
+#diagram2:hover p{
+	opacity:1;
+}
+
+#diagram3 {
+	position: relative;
+	height: 700px;
+	width: 200px;
+	margin-left: -300px;
+	margin-top: 200px;
+	;
+}
+
+#diagram3img {
+	position:absolute;
+	left:-100px
+	top:-350px;
+}
+
+#diagram3 p {
+	position: absolute;
+	width:400px
+	height:300px;
+	margin-left:-500px;
+	opacity:0;
+	transition: 500ms ease;
+}
+
+#diagram3:hover p{
+	opacity:1;
+}
+
+#diagram4 {
+	position: relative;
+	height: 700px;
+	width: 350px;
+	margin-left: -474px;
+	margin-top: -50px;
+}
+
+#diagram4img {
+	position: absolute;
+    left: 50px;
+    top: -350px;
+}
+
+#diagram4 p {
+    position: absolute;
+    width: 800px;
+    height: 300px;
+    margin-left: -700px;
+    margin-top:-250px;
+    opacity:0;
+    transition: 500ms ease;
+}
+
+#diagram4:hover p{
+	opacity:1;
+}
+
+#diagram5 {
+	position: relative;
+	height: 1500px;
+	width: 400px;
+	margin-left: -400px
+	margin-top: -20px;
+}
+
+#diagram5img {
+	position: absolute;
+    left: -660px;
+    top: -700px;
+}
+
+#diagram5 p{
+
+	position: absolute;
+    width: 400px;
+    height: 300px;
+    margin-left: -1100px;
+    margin-top: -560px;
+	opacity:0;
+	transition: 500ms ease;
+}
+
+
+#diagram5:hover p{
+	opacity:1;
+}
+
+#diagram6 {
+	position:relative;
+	width:2100px;
+	height:600px;
+	margin-left: -400px;
+	margin-top: -10px;
+	
+}
+
+#diagram6img {
+	position: absolute;
+    left: -560px;
+    top: -1860px;
+}
+
+#diagram6 p{
+
+    position: absolute;
+    width: 600px;
+    height: 300px;
+    margin-left: -950px;
+    margin-top: -1700px;
+	opacity:0;
+	transition: 500ms ease;
+}
+
+#diagram6:hover p{
+	opacity:1;
+}
+
+#diagram7 {
+	position:relative;
+	width: 400px
+	height: 2000px ;
+}
+
+
+#gradientimg {
+    position: relative;
+    margin-top: -9000px;
+    margin-left: 2000px;
+    transition: all 1s ease;
+}
+
+#gradientimg:hover {
+	transform: translateY(-2000px);	
+}
+/** animtion headline**
+
+
+
+
+
+}
+
+
