@@ -2,6 +2,87 @@
 
 * { margin: 0px; padding: 0px; }
 
+body {
+	text-align: left;
+	font-size: 20px;
+	font-family: Tahoma;
+	background-color:#3b5998;
+	color: white;
+}
 
+h1#title {
+	margin-top:100px;
+	margin-left:500px;
+	position: center;
+	top: 20px;
+	left: 50px;
+}
+
+#facebookmain {
+	margin-top: 70px;
+	margin-left: 150px;
+
+}
+
+
+
+#friends img {
+	display: inline-block; 
+	vertical-align: middle; 
+	transform: scale(.8);
+	position:relative;
+	top: -840px; left: 540px;
+	height: auto; 
+    width: auto; 
+    max-width: 600px; 
+    max-height: 550px;
+}
+
+#friends:hover {
+    background-image: url('fbfriends.jpg');
+    height: 600px;
+    width: 550px;
+}
+
+
+
+
+
+
+
+
+
+
+
+# {
+	position: relative;
+	height: 700px;
+	width: 200px;
+	margin-left: -300px;
+	margin-top: 200px;
+	;
+}
+
+#img {
+	position:absolute;
+	left:-100px
+	top:-350px;
+}
+
+#diagram3 p {
+	position: absolute;
+	width:400px
+	height:300px;
+	margin-left:-500px;
+	opacity:0;
+	transition: 500ms ease;
+}
+
+#diagram3:hover p{
+	opacity:1;
+}
+
+}
+}
 
 }
