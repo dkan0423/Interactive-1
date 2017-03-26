@@ -24,8 +24,6 @@ h1#title {
 
 }
 
-
-
 #friends img {
 	display: inline-block; 
 	vertical-align: middle; 
@@ -43,7 +41,20 @@ h1#title {
     height: 600px;
     width: 550px;
 }
+#activity img {
+	display: inline-block; 
+	vertical-align: middle; 
+	transform: scale(.8);
+	position:relative;
+	top: -1495px; left: 880px;
+	height: auto; 
+    width: auto; 
+    max-width: 600px; 
+    max-height: 550px;
 
+
+
+}
 
 
 
