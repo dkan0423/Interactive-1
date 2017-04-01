@@ -1,0 +1,288 @@
+* { margin: 0px; padding: 0px; }
+
+body {
+
+	text-align: center;
+	font-size: 20px;
+	font-family: Tahoma;
+	background-color:#EAE9EE;
+	color: white;
+
+}
+/* 
+create a div that uses your profile 
+image as a background image. sizing 
+this div will scale the background 
+images size because of the background 
+size parameter 
+*/
+
+.topcontainer
+{
+    width : 50%;
+    height : 40px;
+    background-image:url(Buttons/Img/topbar.jpg);
+    background-repeat: no repeat; 
+    background-size : 100% 100%;
+}
+
+#topcontainer {
+	background: url('../Img/topbar.jpg');
+	width: 851px;
+	height: 70px;
+	margin-top:-30px;
+	margin-left: 145px;
+	background-size: contain;
+	position: relative;
+	
+	;
+}
+
+
+#container {
+	background: url('../Img/facebookprofile.jpg') top left no-repeat;
+	width: 851px;
+	height: 1000px;
+	margin: auto;
+
+	/* scales background image to fit div */
+	background-size: contain;
+	
+	/* set to relative so you can position elements inside absolute */
+	position: relative;
+}
+
+
+/* 
+position element you want to appear
+on hover
+*/
+#hover-1 {
+    position: absolute;
+    left: 370px;
+    top: 153px;
+
+    /* make this element the size of what you want to hover on */
+    width: 120px;
+    height: 40px;
+
+    /* important: allows image to overflow when hovered*/
+    overflow: visible;
+
+	/* temp to show you where the div is */
+	border: 1px solid green;
+}
+
+/*
+make the image inside it invsible
+*/
+
+#hover-1 img{
+	/* set the image to the width you want it at */
+	width: 250px;
+	height:500px;
+	/* scales image proportionally */
+	height: auto;
+	/* prevents hovering the hidden image from triggering the hover state */
+	pointer-events: none;
+	/* hide the image */
+	opacity: 0;
+
+}
+
+/*
+show the image when you hover on the element
+*/
+
+#hover-1:hover img{
+	opacity: 1;
+}
+
+
+/* 
+position element you want to appear
+on hover
+*/
+#hover-2 {
+
+    position: absolute;
+    left: 150px;
+    top: 320px;
+
+    /* make this element the size of what you want to hover on */
+    width: 319px;
+    height: 300px;
+    /* important: allows image to overflow when hovered*/
+    overflow: visible;
+
+	/* temp to show you where the div is */
+	border: 1px solid green;
+}
+
+/*
+make the image inside it invsible
+*/
+
+#hover-2 img{
+	/* set the image to the width you want it at */
+	width: 300px;
+	height:500px;
+	/* scales image proportionally */
+	height: auto;
+	/* prevents hovering the hidden image from triggering the hover state */
+	pointer-events: none;
+	/* hide the image */
+	opacity: 0;
+
+}
+
+/*
+show the image when you hover on the element
+*/
+
+#hover-2:hover img{
+	opacity: 1;
+}
+
+
+/* 
+position element you want to appear
+on hover
+*/
+#hover-3 {
+
+    position: absolute;
+  	left: 485px;
+    top: 286px;
+
+    /* make this element the size of what you want to hover on */
+    width: 510px;
+    height: 130px;
+
+    /* important: allows image to overflow when hovered*/
+    overflow: visible;
+
+	/* temp to show you where the div is */
+	border: 1px solid green;
+}
+
+/*
+make the image inside it invsible
+*/
+
+#hover-3 img{
+	/* set the image to the width you want it at */
+	width: 500px;
+	height:300px;
+	/* scales image proportionally */
+	height: auto;
+	/* prevents hovering the hidden image from triggering the hover state */
+	pointer-events: none;
+	/* hide the image */
+	opacity: 0;
+
+}
+
+/*
+show the image when you hover on the element
+*/
+
+#hover-3:hover img{
+	opacity: 1;
+}
+
+
+/*
+make the image inside it invsible
+*/
+
+#hover-4 img{
+	/* set the image to the width you want it at */
+	width: 200px;
+	height:300px;
+	/* scales image proportionally */
+	height: auto;
+	/* prevents hovering the hidden image from triggering the hover state */
+	pointer-events: none;
+	/* hide the image */
+	opacity: 0;
+
+}
+
+/*
+show the image when you hover on the element
+*/
+
+#hover-4:hover img{
+	opacity: 1;
+}
+/* 
+position element you want to appear
+on hover
+*/
+#hover-4 {
+
+    position: absolute;
+   	left: 805px;
+    top: 150px;
+
+    /* make this element the size of what you want to hover on */
+    width: 175px;
+    height: 26px;
+
+    /* important: allows image to overflow when hovered*/
+    overflow: visible;
+
+	/* temp to show you where the div is */
+	border: 1px solid green;
+}
+
+/* 
+position element you want to appear
+on hover
+*/
+#hover-5 {
+   	position: absolute;
+    left: 164px;
+    top: 50px;
+
+    /* make this element the size of what you want to hover on */
+    width: 165px;
+    height: 166px;
+
+    /* important: allows image to overflow when hovered*/
+    overflow: visible;
+
+	/* temp to show you where the div is */
+	border: 1px solid green;
+}
+
+/*
+make the image inside it invsible
+*/
+
+#hover-5 img{
+	/* set the image to the width you want it at */
+	width: 165px;
+	height:165px;
+	/* scales image proportionally */
+	height: auto;
+	/* prevents hovering the hidden image from triggering the hover state */
+	pointer-events: none;
+	/* hide the image */
+	opacity: 0;
+
+}
+
+/*
+show the image when you hover on the element
+*/
+
+#hover-5:hover img{
+	opacity: 1;
+}
+
+
+
+
+
