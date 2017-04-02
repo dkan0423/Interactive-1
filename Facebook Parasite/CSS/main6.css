@@ -40,9 +40,9 @@ size parameter
 
 
 #container {
-	background: url('../Img/facebookprofile.jpg') top left no-repeat;
+	background: url('../Img/facebookprofilecopy.png') top left no-repeat;
 	width: 851px;
-	height: 1000px;
+	height: 750px;
 	margin: auto;
 
 	/* scales background image to fit div */
@@ -70,7 +70,7 @@ on hover
     overflow: visible;
 
 	/* temp to show you where the div is */
-	border: 1px solid green;
+	border: 1px white;
 }
 
 /*
@@ -116,7 +116,7 @@ on hover
     overflow: visible;
 
 	/* temp to show you where the div is */
-	border: 1px solid green;
+	border: 1px white;
 }
 
 /*
@@ -163,7 +163,7 @@ on hover
     overflow: visible;
 
 	/* temp to show you where the div is */
-	border: 1px solid green;
+	border: 1px white;
 }
 
 /*
@@ -234,7 +234,7 @@ on hover
     overflow: visible;
 
 	/* temp to show you where the div is */
-	border: 1px solid green;
+	border: 1px white;
 }
 
 /* 
@@ -254,7 +254,7 @@ on hover
     overflow: visible;
 
 	/* temp to show you where the div is */
-	border: 1px solid green;
+	border: 1px white;
 }
 
 /*

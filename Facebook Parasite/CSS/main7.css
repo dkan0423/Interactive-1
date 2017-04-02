@@ -18,7 +18,7 @@ size parameter
 */
 
 #container {
-	background: url('../Img/fbarchive.jpg') 
+	background: url('../Img/fbarchivecopy.png') 
 	top left no-repeat;
 	width: 851px;
 	height: 1000px;
@@ -46,7 +46,7 @@ on hover
     overflow: visible;
 
 	/* temp to show you where the div is */
-	border: 1px solid green;
+	border: 1px white;
 }
 
 /*

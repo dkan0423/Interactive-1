@@ -5,8 +5,10 @@ body {
 	text-align: center;
 	font-size: 13px;
 	font-family: Tahoma;
-	background-color:#3b5998 ;
+	background-color:#EAE9EE;
 	color: white;
+
+	
 
 }
 /* 
@@ -20,81 +22,59 @@ size parameter
 #header {
 	margin-top:100px;
 	font-family: Tahoma;
+	font: condensed bold;
 	font-size: 15px;
+	color:#3b5998 ;
+	padding-left:125px;
+
 }
+
 
 #main {
-	width: 400px;
-	height:400px;
-	margin-left: 350px;
-	margin-top: 120px;
+	float:center;
+	overflow: scroll;
 }
-
 #main {
--webkit-animation: fadeInUp·2s;
--moz-animation: fadeInUp 2s;
--ms-animation: fadeInUp 2s;
--o-animation: fadeInUp 2s;
-animation: fadeInUp 2s;
-}
 
-
-#container {
-	background: url('../Img/markzuckerberg.jpg') 
-	top left no-repeat;
-	width: 851px;
-	height: 1000px;
-	margin: auto;
-
-	/* scales background image to fit div */
-	background-size: contain;
+	width: 420px;
+	height:220px;
+	margin-left: 450px;
+	margin-top: 10px;
+	font-family: Tahoma;
+	background:white;
+	text-align: center;
+	color: black;
 	
-	/* set to relative so you can position elements inside absolute */
-	position: relative; 
+
+
 }
 
 
-/* 
-position element you want to appear
-on hover
-*/
-#hover-1 {
-    position: absolute;
-    left: 187px;
-    top: 320px;
-    width: 190px;
-    height: 40px;
-    /* important: allows image to overflow when hovered*/
-    overflow: visible;
+@keyframes marksface {
+  0%   { opacity: 0; }
+  100% { opacity: 1; }
 
-	/* temp to show you where the div is */
-	border: 1px solid green;
 }
 
-/*
-make the image inside it invsible
-*/
+img {
+	position: absolute;
+	max-width: 300px;
+	height: auto;	
+}
 
-#hover-1 img{
-	/* set the image to the width you want it at */
-	width: 880px;
-	height:1000px;
-	/* scales image proportionally */
-	height: auto;
-	/* prevents hovering the hidden image from triggering the hover state */
-	pointer-events: none;
-	/* hide the image */
+.image1 {
+	animation: marksface 3s 1;
 	opacity: 0;
 
+	top: 20px;
+	left: 300px;
 }
 
-/*
-show the image when you hover on the element
-*/
+.image2 {
+	animation: marksface 3s 1;
+	animation-delay: 2s;
+	opacity: 0;
 
-#hover-1:hover img{
-	opacity: 1;
+	top: 220px;
+	left: 200px;
 }
-
-
-
