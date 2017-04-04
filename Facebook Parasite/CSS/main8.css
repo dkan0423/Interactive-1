@@ -2,6 +2,7 @@
 
 body {
 
+
 	text-align: center;
 	font-size: 13px;
 	font-family: Tahoma;
@@ -19,14 +20,15 @@ images size because of the background
 size parameter 
 */
 
-#header {
+h1 {
 	
 	font-family: Tahoma;
 	font: condensed bold;
 	font-size: 15px;
 	color:#3b5998 ;
 	margin-top: auto;
-	text-align:center;
+	margin-left: auto;
+	margin-right: auto;
 
 
 
@@ -38,15 +40,16 @@ size parameter
 
 
 #main {
-
-	width: 420px;
-	height:220px;
+	
+	width: 500px;
+	height:250px;
 	margin-left: auto;
 	margin-right: auto;
-	margin-top: 200px;
+	margin-top:200px;
 	font-family: Tahoma;
-	background:white;
+	background-color: white;
 	color: black;
+	overflow: scroll;
 
 
 	z-index: 1;
@@ -54,9 +57,7 @@ size parameter
 
 }
 
-p {
-	overflow:scroll;
-}
+
 
 
 @keyframes marksface {
