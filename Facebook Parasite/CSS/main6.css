@@ -106,11 +106,11 @@ on hover
 #hover-2 {
 
     position: absolute;
-    left: 150px;
-    top: 320px;
+    left: 210px;
+    top: 400px;
 
     /* make this element the size of what you want to hover on */
-    width: 319px;
+    width: 340px;
     height: 300px;
     /* important: allows image to overflow when hovered*/
     overflow: visible;
@@ -152,11 +152,11 @@ on hover
 #hover-3 {
 
     position: absolute;
-  	left: 485px;
+  	left: 550px;
     top: 286px;
 
     /* make this element the size of what you want to hover on */
-    width: 510px;
+    width: 520px;
     height: 130px;
 
     /* important: allows image to overflow when hovered*/
@@ -223,11 +223,11 @@ on hover
 #hover-4 {
 
     position: absolute;
-   	left: 805px;
+   	left: 870px;
     top: 150px;
 
     /* make this element the size of what you want to hover on */
-    width: 175px;
+    width: 120px;
     height: 26px;
 
     /* important: allows image to overflow when hovered*/
@@ -243,11 +243,11 @@ on hover
 */
 #hover-5 {
    	position: absolute;
-    left: 164px;
+    left: 236px;
     top: 50px;
 
     /* make this element the size of what you want to hover on */
-    width: 165px;
+    width: 167px;
     height: 166px;
 
     /* important: allows image to overflow when hovered*/
