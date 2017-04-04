@@ -14,7 +14,7 @@ $('document').ready(function(){
 		var randPosY = Math.floor((Math.random()*winHeight));
 
 		// add an image and use 'n' to give it a unique class 
-		$('body').prepend('<Img src="img/markzuckerberg.jpg" class="img-'+n+'" />')
+		$('body').prepend('<Img src="Img/markzuckerberg.jpg" class="img-'+n+'" />')
 
 		// adds a random position to the div just added to the page using its class
 		$('.img-'+n).css('left', randPosX - 50);
