@@ -1,0 +1,30 @@
+* {margin: 0px; padding 0px;}
+
+body {
+ font-family: Helvetica;
+ font color:gray;
+ font-weight: bold;
+
+}
+
+
+
+#imessage {
+
+	height: 100vh; width: 100vw;
+	align-content:center;
+	position:relative;
+}
+
+
+img {
+
+	display:block;
+	position: center;
+	margin-left:auto;
+	margin-right: auto;
+}
+
+#test {
+	position: center;
+}
