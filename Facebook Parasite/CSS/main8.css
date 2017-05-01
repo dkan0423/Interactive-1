@@ -24,7 +24,7 @@ h1 {
 	
 	font-family: Tahoma;
 	font: condensed bold;
-	font-size: 15px;
+	font-size: 13px;
 	color:#3b5998 ;
 	margin-top: auto;
 	margin-left: auto;
@@ -49,7 +49,8 @@ h1 {
 	font-family: Tahoma;
 	background-color: white;
 	color: black;
-	overflow: scroll;
+	padding: 20px;
+	
 
 
 	z-index: 1;

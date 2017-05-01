@@ -29,10 +29,10 @@ size parameter
 #topcontainer {
 	background: url('../Img/topbar.jpg');
 	width: 851px;
-	height: 70px;
-	margin-top:-30px;
-	margin-left: 214px;
+	height: 36px;
+	margin:auto;
 	background-size: contain;
+	background-repeat: no-repeat;
 	position: relative;
 	
 	;
